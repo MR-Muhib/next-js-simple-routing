@@ -1,7 +1,11 @@
-export default function About() {
+import React from "react";
+
+function About() {
   return (
-    <main>
-      <h1 className="text-xl black ">Welcome to the about pages</h1>
-    </main>
+    <div>
+      <h1 className="">This is about pages</h1>
+    </div>
   );
 }
+
+export default About;

@@ -16,7 +16,7 @@ function Blogs() {
   return (
     <div>
       <h3 className="font-bold text-center mt-5">Blog page</h3>
-      <p className="">
+      <div className="">
         {blogs.map((blog) => (
           <div key={blog.id}>
             <p className="font-semibold ml-5 mb-5">
@@ -24,7 +24,7 @@ function Blogs() {
             </p>
           </div>
         ))}
-      </p>
+      </div>
     </div>
   );
 }

@@ -22,9 +22,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <nav className="p-4 bg-cyan-500">
-          <ul className="flex gap-5 ">
-            <li className="cursor-pointer">
+        <nav className="p-4 bg-cyan-500 ">
+          <ul className="flex gap-5 justify-center">
+            <li className="cursor-pointer hover:underline ">
               <Link href="/">Home</Link>
             </li>
             <li className="cursor-pointer">
@@ -33,6 +33,10 @@ export default function RootLayout({ children }) {
 
             <li className="cursor-pointe">
               <Link href="/blogs">Blogs</Link>
+            </li>
+
+            <li className="cursor-pointe">
+              <Link href="/posts">Posts</Link>
             </li>
           </ul>
         </nav>
